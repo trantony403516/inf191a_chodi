@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    color: #2dd2f4;
+    font-family: Calibri;
+    font-size: medium;
+    text-transform: uppercase;
+}
+h1 {
+    font-family: Georgia;
+    text-transform: lowercase;
+}
+.header-img {
+    width: 100%;
+    height: 1000px;
+    background: url("https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+    background-size: cover;
+}
+input[type=submit] {
+    background-color: darkgray;
+    border: none;
+    color:white;
+    cursor: pointer;
+    font-family: Calibri;
+    font-weight: lighter;
+    font-size: large;
+}
+.topnav .search-container {
+    float:right;
+}
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.topnav a {
+    color: #ff4f00;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float:left;
+}
+.topnav a:hover {
+    background-color: #c7ea46;
+    color: #ff4f00;
+}
+a {
+    color: #2dd2f4;
+}
+a:hover {
+    color: #c7ea46;
+}

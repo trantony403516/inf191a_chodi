@@ -1,0 +1,279 @@
+.divCover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divCover img{
+  width: 70%;
+}
+#userFullNameError, #userQualificationError, #userLocationError, #userEmailError, #userPasswordError, #userSIEmailError, #userSIPasswordError, #userBioError, #editProfileForm, #userSurnameError {
+  display: none;
+}
+#userAvatar{
+  width: 120px;
+  height: 120px;
+}
+body {
+  background-color: #f5fcff;
+  color: #2dd2f4;
+  font-family: Georgia;
+  font-size: medium;
+  text-transform: lowercase;
+}
+p {
+  font-size: 24px;
+  text-align:center;
+}
+h1 {
+  font-family: Georgia;
+  text-transform: none;
+  font-weight: bold;
+}
+img {
+  z-index: 0;
+  width:100%;
+  height: 500px;
+}
+.title {
+  display:flex;
+  justify-content: center;
+  font-size: x-large;
+  text-decoration-line: underline;
+}
+.links {
+  display:flex;
+  justify-content: center;
+  font-size: 48px;
+  text-decoration: none;
+}
+input[type=submit] {
+  background-color: darkgray;
+  border: none;
+  color:white;
+  cursor: pointer;
+  font-family: Calibri;
+  font-weight: lighter;
+  font-size: large;
+}
+.Header {
+  position: absolute;
+  z-index: 1;
+  background-color: #D8F3FA;
+  position: fixed;
+  height:100%;
+  width: 25%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logoImg {
+  height:100px;
+  width:100px;
+  margin-bottom:0;
+}
+.Header a {
+  color: #ff4f00;
+  padding: 14px 30px;
+  padding-top: 15px;
+  text-transform: lowercase;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Georgia;
+  display:flex;
+  justify-content: center;
+}
+.Header a:hover {
+  background-color: #D8F3FA;
+  color: #964000;
+}
+.closebutton {
+  border:none;
+  font-size:x-large;
+  background-color: #D8F3FA;
+  cursor:pointer;
+  position: absolute;
+  z-index:2;
+}
+.VisibleHeader {
+  display:flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.VisibleHeader h1 {
+  margin-right: 400px;
+  margin-left: 300px;
+}
+.VisibleHeader input[type=text] {
+  background-color: #f5fcff;
+  font-size: large;
+  border: none;
+  width: 150px;
+}
+.VisibleHeader .search-container button {
+  background-color: #f5fcff;
+  border:none;
+  cursor:pointer;
+  height:20px;
+  margin-top: 5%;
+}
+.threebars {
+  border:none;
+  font-size:x-large;
+  background-color: #f5fcff;
+  cursor:pointer;
+  width: 150px;
+}
+body a {
+  color: #2dd2f4;
+  text-decoration: none;
+}
+a:hover {
+  color: #98b4d4;
+}
+.HomeTable {
+  width:100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.HomeTable tr, .LandingTable tr {
+  box-shadow: 0px 0px 10px gray;
+  border-bottom: 0;
+}
+.HomeTable td, .LandingTable tr{
+  text-align: center;
+  font-size: 30px;
+}
+.HomeTable tr a, .LandingTable a{
+  display:block;
+  height:400px;
+}
+.login {
+  background-image: url('./reach_in.jpg');
+}
+.about {
+  background-image: url('./reach_up.jpg');
+}
+.about a {
+  color: white;
+}
+.about a:hover {
+  color:gray;
+}
+.contact {
+  background-image: url('./reach_out.jpg');
+}
+.resources a, .webinars a, .account a, .blog a, .live a, .contact a{
+  color: #ff4f00;
+}
+.resources a:hover, .webinars a:hover, .account a:hover, .blog a:hover, .live a:hover, .contact a:hover{
+  color: #964000;
+}
+
+.LandingHeader {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 48px;
+}
+.LandingHeader {
+  display:flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.LandingHeader h1 {
+  margin-right: 500px;
+  margin-left: 300px;
+}
+.LandingHeader input[type=text] {
+  background-color: #f5fcff;
+  font-size: large;
+  border: none;
+  width: 150px;
+}
+.LandingHeader .search-container button {
+  background-color: #f5fcff;
+  border:none;
+  cursor:pointer;
+  height:20px;
+  margin-top: 5%;
+}
+.Footer {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 15px;
+  bottom: 0;
+  width: 100%;
+}
+.center {
+  margin-left:300px;
+  margin-right:300px;   
+}
+.budget_table {
+  text-align:center;
+}
+.table th{
+  color:#ff4f00;
+  width:25%;
+}
+.table td {
+  color:#2dd2f4;
+  width:25%;
+}
+.table{
+  margin-bottom:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 3px gray;
+}
+.editProfileForm {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.element {
+  text-align:center;
+  font-size: 24px;
+  color:#ff4f00;
+}
+.element a{
+  text-decoration: underline dotted #ff4f00;
+}
+.input-form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  font-size: 24px;
+  color:#ff4f00;
+}
+#forum {
+  width:100%;
+  text-align: center;
+  font-size: 24px;
+}
+#forum td {
+  box-shadow: 0px 0px 10px gray;
+  height: 200px;
+}
+.imageinput {
+  text-align:center;
+}
+.listinput {
+  text-align:center;
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.logoTitle {
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+}
