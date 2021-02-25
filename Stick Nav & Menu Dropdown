@@ -1,0 +1,118 @@
+
+// ADD TO THE HEADER OF PAGE   
+
+	<nav class ="sticky">
+                <div class="row">
+
+                    <ul class="main-nav">
+                        <button class="click">Menu Sections</button>
+
+                        <div class="list">
+
+                            <button class="links">Home</button>
+
+                            <button class="links">Events</button>
+
+                            <button class="links">Agenda</button>
+
+                            <button class="links">Funds</button>
+
+                            <button class="links">CRM</button>
+                            <button class="links">Report</button>
+                            <button class="links">Chat</button>
+
+                        </div>
+                        <li><a href="#features">Home</a></li>
+                        <li><a href="#works">Events</a></li>
+                        <li><a href="#cities">Agenda</a></li>
+                        <li><a href="#plans">Funds</a></li>
+                        <li><a href="#plans">CRM</a></li>
+                        <li><a href="#plans">Report</a></li>
+                        <li><a href="#plans">Chat</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+
+
+// ADD TO THE CSS FILE
+
+
+.click{
+
+    background-color: #f85f73;
+
+}
+
+.click:hover {
+
+    background-color: #B71C1C;
+
+}
+
+.click,.links {
+
+    padding: 12px;
+
+    font-size: 1.2em;
+
+    font-family: futura Md BT;
+
+    border: none;
+
+    outline: none;
+
+    width:200px;
+
+    color:#fff;
+
+    transition: 0.3s;
+
+}
+
+.list {
+
+    position: absolute;
+
+    transform: scaleY(0);
+
+    transform-origin: top;
+
+    transition: 0.3s;
+
+}
+
+.newlist {
+
+    transform: scaleY(1);
+
+}
+
+.links {
+
+    background-color: #283c63;
+
+}
+
+.links:hover {
+
+    background-color: #01579B;
+
+    transform: scale(1.1);
+
+}
+
